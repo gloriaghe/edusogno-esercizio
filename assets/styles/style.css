@@ -9,8 +9,8 @@
 #rectangle2{
 
     position: absolute;
-    width: 1440px;
-    height: 1024px;
+    width: 100vw;
+    height: 100vh;
     left: 0px;
     top: 0px;
     
@@ -38,25 +38,33 @@ h1{
     color: #134077;
 }
 
-#rectangle9{
+form{
     box-sizing: border-box;
     position: absolute;
     width: 662px;
-    height: 604px;
     left: 389px;
     top: 259px;
     background: #FFFFFF;
     border: 1px solid #134077;
     border-radius: 19px;
 }
+
+#formLogin{
+height: 434px;
+}
+#formRegistration{
+    height: 604px;
+}
 .input{
     position: absolute;
     height: 20px;
     left: 36px;
+    width: 80%;
     font-family: 'DM Sans';
     font-style: normal;
     font-weight: 400;
     color: #CCCCCC;
+    border: none;
 }
 .label{
     position: absolute;
@@ -64,42 +72,34 @@ h1{
     font-size: 13px;
     color: #231F20;
 }
-#registrationLabelName{
-    width: 102px;
+#Label1{
     height: 13px;
     top: 46px;
     text-align: center;
 }
 
-#registrationInputName{
-    width: 52px;
+#Input1{
     top: 78px;   
 }
-#registrationLabelCognome{
-    width: 125px;
+#Label2{
     height: 13px;
     top: 139px;
 }
-#registrationInputCognome{
-    width: 48px;
+#Input2{
     top: 171px;
 }
-#registrationLabelEmail{
-    width: 97px;
+#Label3{
     height: 13px;
     top: 225px;
 }
-#registrationInputEmail{
-    width: 195px;
+#Input3{
     top: 257px;
 }
-#registrationLabelPassword{
-    width: 131px;
+#Label4{
     height: 13px;
     top: 317px;
 }
-#registrationInputPassword{
-    width: 100px;
+#Input4{
     top: 349px;
 }
 
@@ -127,12 +127,17 @@ h1{
 
 }
 #buttonRegistration{
-    position: absolute;
-    width: 577px;
-    height: 59px;
-    left: 38px;
     top: 442px;
+}
+#buttonLogin{
+    top: 260px;
+}
+.button{
+    position: absolute;
     color: #FFFFFF;
     background: #0057FF;
     border-radius: 11px;
+    width: 577px;
+    height: 59px;
+    left: 38px;
 }
