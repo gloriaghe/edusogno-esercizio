@@ -1,22 +1,24 @@
-*{
+* {
     font-family: 'DM Sans';
     font-style: normal;
     font-weight: 700;
     font-size: 20px;
     line-height: 99.5%;
 }
+
 /* crea account */
-#rectangle2{
+#rectangle2 {
 
     position: absolute;
     width: 100vw;
     height: 100vh;
     left: 0px;
     top: 0px;
-    
+
     background: #D9E5F3;
 }
-#rectangle1{
+
+#rectangle1 {
     box-sizing: border-box;
     position: absolute;
     width: 1440px;
@@ -27,7 +29,8 @@
     box-shadow: 0px 4px 18px -6px #0057FF;
     border-radius: 13px;
 }
-h1{
+
+h1 {
     position: absolute;
     width: 295px;
     height: 32px;
@@ -38,7 +41,7 @@ h1{
     color: #134077;
 }
 
-form{
+form {
     box-sizing: border-box;
     position: absolute;
     width: 662px;
@@ -49,13 +52,15 @@ form{
     border-radius: 19px;
 }
 
-#formLogin{
-height: 434px;
+#formLogin {
+    height: 434px;
 }
-#formRegistration{
+
+#formRegistration {
     height: 604px;
 }
-.input{
+
+.input {
     position: absolute;
     height: 20px;
     left: 36px;
@@ -66,44 +71,52 @@ height: 434px;
     color: #CCCCCC;
     border: none;
 }
-.label{
+
+.label {
     position: absolute;
     left: 37px;
     font-size: 13px;
     color: #231F20;
 }
-#Label1{
+
+#Label1 {
     height: 13px;
     top: 46px;
     text-align: center;
 }
 
-#Input1{
-    top: 78px;   
+#Input1 {
+    top: 78px;
 }
-#Label2{
+
+#Label2 {
     height: 13px;
     top: 139px;
 }
-#Input2{
+
+#Input2 {
     top: 171px;
 }
-#Label3{
+
+#Label3 {
     height: 13px;
     top: 225px;
 }
-#Input3{
+
+#Input3 {
     top: 257px;
 }
-#Label4{
+
+#Label4 {
     height: 13px;
     top: 317px;
 }
-#Input4{
+
+#Input4 {
     top: 349px;
 }
 
-.line{
+.line {
     position: absolute;
     width: 579px;
     height: 0px;
@@ -111,28 +124,35 @@ height: 434px;
     border: 1px solid #2D224C;
 }
 
-#line1{
+#line1 {
     top: 106px;
 
 }
-#line2{
+
+#line2 {
     top: 199px;
 
 }
-#line3{
+
+#line3 {
     top: 285px;
 
-}#line4{
+}
+
+#line4 {
     top: 377px;
 
 }
-#buttonRegistration{
+
+#buttonRegistration {
     top: 442px;
 }
-#buttonLogin{
+
+#buttonLogin {
     top: 260px;
 }
-.button{
+
+.button {
     position: absolute;
     color: #FFFFFF;
     background: #0057FF;
@@ -140,4 +160,26 @@ height: 434px;
     width: 577px;
     height: 59px;
     left: 38px;
+}
+
+/* eventi */
+
+h2 {
+    position: absolute;
+    width: 446px;
+    height: 32px;
+    left: 497px;
+    top: 205px;
+    font-size: 32px;
+    text-align: center;
+    color: #134077;
+}
+.containerEventi{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#eventi{
+    margin: 0px auto;
+    width: 80%;
 }

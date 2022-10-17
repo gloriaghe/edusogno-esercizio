@@ -10,7 +10,7 @@
 <body>
 	<section id="rectangle2">
 		<div id="rectangle1">
-			<h1>Crea il tuo account</h1>
+			<h1>Hai già un account?</h1>
 			<form method="post" action="login.php" id="formLogin">
 				<?php include('errors.php'); ?>
 					<label class="label" id="Label1">Inserisci l'e-mail</label>
