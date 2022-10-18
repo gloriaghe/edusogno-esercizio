@@ -9,34 +9,40 @@
 </head>
 
 <body>
-    <section id="rectangle2">
-        <div id="rectangle1">
-            <?php if (isset($_SESSION['success'])): ?>
-            <section id="eventi">
-                <h2>Ciao
-                    ecco i tuoi eventi
-                </h2>
-                <div>
-                    <div class="containerEventi">
+    <header></header>
+
+    <section id="container">
+        <?php if (isset($_SESSION['success'])): ?>
+        
+            <!-- TODO: inserire nome -->
+            <div>
+                <div class="containerEventi">
+                    <h2>Ciao ecco i tuoi eventi</h2>
+                    <div id="eventi">
+
                         <?php if (count($eventiUtente) > 0): ?>
                         <?php foreach ($eventiUtente as $evento): ?>
-                        <div class="">
+                        
                             <div class="evento">
-                                <div><?= $evento['nome_evento'] ?></div>
-                                <p><?= $evento['data_evento'] ?></p>
-                                <div ><button name="join">JOIN</button></div>
+                                <div>
+                                    <?= $evento['nome_evento'] ?>
+                                </div>
+                                <p>
+                                    <?= $evento['data_evento'] ?>
+                                </p>
+                                <button name="join" class="button">JOIN</button>
                             </div>
-                        </div>
+                        
                         <?php endforeach; ?>
                         <?php else: ?>
-                            <h3>Non hai eventi</h3>
+                        <h3>Non hai eventi</h3>
                         <?php endif; ?>
                     </div>
                 </div>
-            </section>
-            <?php endif ?>
+            </div>
+        
+        <?php endif ?>
 
-        </div>
     </section>
 </body>
 
