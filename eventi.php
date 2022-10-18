@@ -15,7 +15,7 @@
     <section class="container">
         <?php if (isset($_SESSION['success'])): ?>       
             <div class="containerEventi">
-                <h2>Ciao ecco i tuoi eventi</h2>
+            <h2>Ciao <?= $name[0]['nome']; ?> <?= $name[0]['cognome']; ?> ecco i tuoi eventi</h2>
                 <div id="eventi">
 
                     <?php if (count($eventiUtente) > 0): ?>
@@ -32,6 +32,7 @@
                     <h3>Non hai eventi</h3>
                     <?php endif; ?>
                 </div>
+
             </div>
         
 

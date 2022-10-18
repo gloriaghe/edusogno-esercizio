@@ -86,9 +86,13 @@ if (isset($_POST['login_user'])) {
 // Eventi
 $email = $_SESSION['email'];
 $query = "SELECT * FROM `eventi` WHERE `attendees` LIKE '%$email%'";
+
 if ($db->error) {
   error_log('Errore: ' . $db->error);
 }
 $result = mysqli_query($db, $query);
 $eventiUtente = $result->fetch_all(MYSQLI_ASSOC);
+$queryName = "SELECT * FROM utenti WHERE email='$email'";
+$resultName = mysqli_query($db, $queryName);
+$name = $resultName->fetch_all(MYSQLI_ASSOC);
 ?>
