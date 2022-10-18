@@ -14,7 +14,7 @@
 	<section class="container">
 		<h1>Crea il tuo account</h1>
 
-		<form method="post" action="register.php" id="formRegistration">
+		<form method="post" action="register.php">
 			<?php include('errors.php'); ?>
 			<label class="label" for="nome">Inserisci il nome</label>
 			<input class="input" type="text" name="nome" id="nome" value="<?php echo $nome; ?>">
@@ -35,7 +35,12 @@
 		</form>
 
 	</section>
-
+	<img src="assets/img/ellisse.svg" id="ellisse"></img>
+	<img src="assets/img/ellissePiccola.svg" id="ellissePiccola"></img>
+	<img src="assets/img/vettorechiaro.svg" id="vettorechiaro"></img>
+	<img src="assets/img/vettoreScuro.svg" id="vettorescuro"></img>
+	<img src="assets/img/vettoreBianco.svg" id="vettoreBianco"></img>
+	<img src="assets/img/razzo.svg" id="razzo"></img>
 </body>
 
 </html>

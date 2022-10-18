@@ -15,7 +15,7 @@ header {
     width: 100vw;
     height: 163px;
     left: 0px;
-    top: -10px; 
+    top: -10px;
     background: #FFFFFF;
     box-shadow: 0px 4px 18px -6px #0057FF;
     border-top-right-radius: 13px;
@@ -23,7 +23,8 @@ header {
     display: flex;
     justify-content: flex-start;
 }
-header img{
+
+header img {
     width: 125px;
     margin-left: 50px;
 }
@@ -43,15 +44,15 @@ header img{
 h1 {
     width: 295px;
     height: 32px;
-   
     font-size: 32px;
     text-align: center;
     color: #134077;
     margin-bottom: 22px;
+    margin-top: 80px;
 }
 
 form {
-    display: flex;    
+    display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
@@ -60,14 +61,15 @@ form {
     border: 1px solid #134077;
     border-radius: 19px;
     padding: 35px;
+    z-index: 500;
 }
 
-#formLogin {
-    height: 434px;
-}
-
-#formRegistration {
-    height: 604px;
+.label {
+    font-size: 13px;
+    color: #231F20;
+    width: 100%;
+    margin-bottom: 20px;
+    margin-top: 30px;
 }
 
 .input {
@@ -78,11 +80,6 @@ form {
     border: none;
 }
 
-.label {
-    font-size: 13px;
-    color: #231F20;
-    width: 100%;
-}
 
 .line {
     width: 100%;
@@ -97,33 +94,35 @@ form {
     border-radius: 11px;
     width: 577px;
     height: 59px;
-    margin: 0 auto;
+    margin: 65px auto;
 }
 
 /* eventi */
 
 h2 {
-    
+    margin-bottom: 80px;
     font-size: 32px;
     text-align: center;
     color: #134077;
 }
 
-.containerEventi{
+.containerEventi {
     display: flex;
     flex-direction: column;
     justify-content: center;
-   height: 100%;
-   padding-top: 200px;
+    height: 100%;
+    width: 70%;
+    padding-top: 200px;
 }
-#eventi{
+
+#eventi {
     margin: 0px auto;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.evento{
+.evento {
     background: #FFFFFF;
     border: 1px solid #134077;
     border-radius: 19px;
@@ -135,3 +134,46 @@ h2 {
     width: 80%;
 }
 
+/* sfondo */
+#razzo {
+    position: fixed;
+    z-index: 300;
+    bottom: 45px;
+    right: 250px;
+}
+
+#ellisse {
+    position: fixed;
+    top: 35%;
+    left: 0px;
+    transform: translate(-50%, - 50%);
+    z-index: 400;
+}
+
+#ellissePiccola {
+    position: fixed;
+    top: 50%;
+    right: 15px;
+    transform: translate(-50%, - 50%);
+}
+
+#vettorechiaro {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    z-index: 200;
+}
+
+#vettorescuro {
+    position: fixed;
+    bottom: 100px;
+    width: 100%;
+    z-index: 100;
+}
+
+#vettoreBianco {
+    z-index: 300;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}

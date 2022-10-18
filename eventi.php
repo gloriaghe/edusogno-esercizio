@@ -45,6 +45,12 @@
         <?php endif ?>
 
     </section>
+    <img src="assets/img/ellisse.svg" id="ellisse"></img>
+    <img src="assets/img/ellissePiccola.svg" id="ellissePiccola"></img>
+    <img src="assets/img/vettorechiaro.svg" id="vettorechiaro"></img>
+    <img src="assets/img/vettoreScuro.svg" id="vettorescuro"></img>
+    <img src="assets/img/vettoreBianco.svg" id="vettoreBianco"></img>
+    <img src="assets/img/razzo.svg" id="razzo"></img>
 </body>
 
 </html>
