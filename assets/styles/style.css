@@ -11,7 +11,7 @@
 
 header {
     position: fixed;
-    z-index: 100;
+    z-index: 1000;
     width: 100vw;
     height: 160px;
     left: 0px;
@@ -102,9 +102,10 @@ input:focus{
     color: #FFFFFF;
     background: #0057FF;
     border-radius: 11px;
-    width: 577px;
-    height: 59px;
+    width: 100%;
+    height: 60px;
     margin: 65px auto;
+    cursor: pointer;
 }
 
 #confirm {
@@ -132,13 +133,12 @@ h2 {
 .containerEventi {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     height: 100%;
-    width: 70%;
-    padding-top: 200px;
+    margin-top: 200px;
 }
 
 #eventi {
+    z-index: 500;
     margin: 0px auto;
     display: flex;
     justify-content: center;
@@ -150,11 +150,30 @@ h2 {
     border: 1px solid #134077;
     border-radius: 19px;
     width: 350px;
-    height: 220px;
+    margin-left: 65px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 30px;
+}
+
+.evento h3{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-weight: 700;
+    font-size: 36px;
+    color: #231F20;
+}
+
+.evento div{
+    font-size: 20px;
+    color: #CCCCCC;
 }
 
 .evento .button {
-    width: 80%;
+    width: 100%;
+    margin-top: 35px;
+    margin-bottom: 0;
 }
 
 /* sfondo */

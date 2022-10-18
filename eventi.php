@@ -16,7 +16,7 @@
         <?php if (isset($_SESSION['success'])): ?>
 
         <!-- TODO: inserire nome -->
-        <div>
+       
             <div class="containerEventi">
                 <h2>Ciao ecco i tuoi eventi</h2>
                 <div id="eventi">
@@ -25,12 +25,8 @@
                     <?php foreach ($eventiUtente as $evento): ?>
 
                     <div class="evento">
-                        <div>
-                            <?= $evento['nome_evento'] ?>
-                        </div>
-                        <p>
-                            <?= $evento['data_evento'] ?>
-                        </p>
+                        <h3><?= $evento['nome_evento'] ?></h3>
+                        <div><?= $evento['data_evento'] ?></div>
                         <button name="join" class="button">JOIN</button>
                     </div>
 
@@ -40,7 +36,7 @@
                     <?php endif; ?>
                 </div>
             </div>
-        </div>
+        
 
         <?php endif ?>
 

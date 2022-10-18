@@ -59,8 +59,7 @@ if (isset($_POST['reg_user'])) {
 if (isset($_POST['login_user'])) {
   $email = mysqli_real_escape_string($db, $_POST['email']);
   $password = mysqli_real_escape_string($db, $_POST['password']);
-  $nome = mysqli_real_escape_string($db, $_POST['nome']);
-  $cognome = mysqli_real_escape_string($db, $_POST['cognome']);
+  
 
   if (empty($email)) {
     array_push($errors, "La Email è richiesta");
