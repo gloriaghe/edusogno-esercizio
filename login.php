@@ -8,7 +8,9 @@
 </head>
 
 <body>
-<header></header>
+<header>
+	<img src="assets/img/logo.svg" alt="logo Edusogno">
+</header>
 
 	<section class="container">
 			<h1>Hai già un account?</h1>
