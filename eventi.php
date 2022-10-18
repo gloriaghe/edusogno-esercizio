@@ -10,7 +10,7 @@
 
 <body>
     <header>
-        <img src="assets/img/logo.svg" alt="logo Edusogno">
+        <a href="index.php"><img src="assets/img/logo.svg" alt="logo Edusogno"></a>
     </header>
     <section class="container">
         <?php if (isset($_SESSION['success'])): ?>
@@ -44,13 +44,13 @@
 
         <?php endif ?>
 
+        <img src="assets/img/ellisse.svg" id="ellisse"></img>
+        <img src="assets/img/ellissePiccola.svg" id="ellissePiccola"></img>
+        <img src="assets/img/vettorechiaro.svg" id="vettorechiaro"></img>
+        <img src="assets/img/vettoreScuro.svg" id="vettorescuro"></img>
+        <img src="assets/img/vettoreBianco.svg" id="vettoreBianco"></img>
+        <img src="assets/img/razzo.svg" id="razzo"></img>
     </section>
-    <img src="assets/img/ellisse.svg" id="ellisse"></img>
-    <img src="assets/img/ellissePiccola.svg" id="ellissePiccola"></img>
-    <img src="assets/img/vettorechiaro.svg" id="vettorechiaro"></img>
-    <img src="assets/img/vettoreScuro.svg" id="vettorescuro"></img>
-    <img src="assets/img/vettoreBianco.svg" id="vettoreBianco"></img>
-    <img src="assets/img/razzo.svg" id="razzo"></img>
 </body>
 
 </html>
