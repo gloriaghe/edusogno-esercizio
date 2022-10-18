@@ -13,10 +13,7 @@
         <a href="index.php"><img src="assets/img/logo.svg" alt="logo Edusogno"></a>
     </header>
     <section class="container">
-        <?php if (isset($_SESSION['success'])): ?>
-
-        <!-- TODO: inserire nome -->
-       
+        <?php if (isset($_SESSION['success'])): ?>       
             <div class="containerEventi">
                 <h2>Ciao ecco i tuoi eventi</h2>
                 <div id="eventi">

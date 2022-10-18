@@ -42,9 +42,10 @@ if (isset($_GET['logout'])) {
 
         <!-- logged in user information -->
         <?php if (isset($_SESSION['email'])): ?>
-        <p>Benvenuto <strong>
-                <?php echo $_SESSION['email']; ?>
-            </strong></p>
+        <h2>Benvenuto
+            <?php echo $_SESSION['email']; ?>
+            !!!
+        </h2>
         <p> <a href="index.php?logout='1'">Esci</a> </p>
         <?php endif ?>
     </div>
