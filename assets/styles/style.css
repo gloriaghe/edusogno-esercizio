@@ -10,13 +10,13 @@
 }
 
 /* crea account */
-#container {
-    position: absolute;
+.container {
     width: 100vw;
     height: 100vh;
-    left: 0px;
-    top: 0px;
-
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     background: #D9E5F3;
 }
 
@@ -39,6 +39,7 @@ h1 {
     font-size: 32px;
     text-align: center;
     color: #134077;
+    margin-bottom: 22px;
 }
 
 form {
@@ -47,10 +48,6 @@ form {
     justify-content: space-around;
     align-items: center;
     width: 662px;
-    position: absolute;
-    transform: translate(-50%, -50%);
-    left: 50%;
-    top: 50%;
     background: #FFFFFF;
     border: 1px solid #134077;
     border-radius: 19px;
@@ -103,11 +100,13 @@ h2 {
     text-align: center;
     color: #134077;
 }
+
 .containerEventi{
-    margin-top: 300px;
     display: flex;
     flex-direction: column;
-   
+    justify-content: center;
+   height: 100%;
+   padding-top: 200px;
 }
 #eventi{
     margin: 0px auto;

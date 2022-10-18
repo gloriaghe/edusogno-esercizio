@@ -9,7 +9,7 @@
 
 <body>
 	<header></header>
-	<section id="container">
+	<section class="container">
 			<h1>Crea il tuo account</h1>
 
 			<form method="post" action="register.php" id="formRegistration">

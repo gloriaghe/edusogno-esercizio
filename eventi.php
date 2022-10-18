@@ -10,8 +10,7 @@
 
 <body>
     <header></header>
-
-    <section id="container">
+    <section class="container">
         <?php if (isset($_SESSION['success'])): ?>
         
             <!-- TODO: inserire nome -->

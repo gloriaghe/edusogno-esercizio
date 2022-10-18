@@ -10,7 +10,7 @@
 <body>
 <header></header>
 
-	<section id="container">
+	<section class="container">
 			<h1>Hai già un account?</h1>
 			<form method="post" action="login.php" id="formLogin">
 				<?php include('errors.php'); ?>
